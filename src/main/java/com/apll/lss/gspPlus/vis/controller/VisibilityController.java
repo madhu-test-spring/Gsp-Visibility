@@ -132,6 +132,28 @@ public class VisibilityController {
 		System.out.println("after return..........");
 	}
 	
+	@PostMapping("/checkreturn")
+	public void testMethodForReturnCheckGit(@RequestBody String name)
+	{
+		
+		System.out.println("befor return..........");
+		System.out.println("befor return..........");
+		System.out.println("befor return..........");
+		
+		if(name.length()>4)
+		{
+			System.out.println("inside a if condition..........");
+			return;
+		}
+		
+		System.out.println("after return..........");
+		System.out.println("after return..........");
+		System.out.println("after return..........");
+	}
+	
+
+	
+	
 
 	
 
