@@ -151,7 +151,15 @@ public class VisibilityController {
 		System.out.println("after return..........");
 	}
 	
-
+         public void someMessage(){
+	 
+	        System.out.println(" return..........");
+		System.out.println(" return..........");
+		System.out.println("after return..........");
+	 
+	 
+	 
+	 }
 	
 	
 
